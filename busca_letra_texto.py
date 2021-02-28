@@ -1,4 +1,5 @@
 texto = "A inserção de comentários no código do programa é uma prática normal. Em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas. O objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritmo implementado (BANIN, 2018, p. 45)"
+texto = texto.lower()
 letra_1 = input("Primeira letra a ser encontrada: ")
 letra_2 = input("Segunda letra a ser encontrada: ")
 count_1 = []
